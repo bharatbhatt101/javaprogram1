@@ -26,7 +26,30 @@
 <center>
 
           
-    <a href="pic\inpro22.png"><img src="pic\inpro22.png" class="img"></a>
+    <p class="test1" style="white-space:pre; background-color:black; color:white;">
+            
+        import java.util.Scanner;
+
+class booleantostring {
+    public static void main(String[] a) {
+        Scanner s = new Scanner(System.in);
+
+        System.out.print("Enter a boolean value (true or false): ");
+        String booleanInput = s.nextLine();
+
+        boolean booleanValue = Boolean.parseBoolean(booleanInput);
+        String stringResult = booleanToString(booleanValue);
+
+        System.out.println("String equivalent: " + stringResult);
+    }
+
+    private static String booleanToString(boolean booleanValue) {
+        return String.valueOf(booleanValue);
+    }
+}
+
+
+        </p>
     
 </center>
 

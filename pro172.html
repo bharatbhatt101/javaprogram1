@@ -26,7 +26,25 @@
 <center>
 
           
-    <a href="pic\inpro22.png"><img src="pic\inpro22.png" class="img"></a>
+    <p class="test1" style="white-space:pre; background-color:black; color:white;">
+            
+        class StringToFloatExample {
+            public static void main(String[] args) {
+                // Example String containing a floating-point number
+                String floatString = "3.14";
+        
+                // Convert String to float using Float.parseFloat()
+                try {
+                    float floatValue = Float.parseFloat(floatString);
+                    System.out.println("Converted float value: " + floatValue);
+                } catch (NumberFormatException e) {
+                    System.out.println("Error: Invalid float format in the input string");
+                    e.printStackTrace();
+                }
+            }
+        }
+        
+        </p>
     
 </center>
 

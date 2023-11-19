@@ -26,7 +26,31 @@
 <center>
 
           
-    <a href="pic\inpro22.png"><img src="pic\inpro22.png" class="img"></a>
+    <p class="test1" style="white-space:pre; background-color:black; color:white;">
+            
+       
+class Animal {
+    public void move() {
+        System.out.println("The animal moves.");
+    }
+}
+
+ class Cheetah extends Animal {
+   @Override
+    public void move() {
+        System.out.println("The Cheetah runs.");
+    }
+}
+
+class  Main_c{
+    public static void main(String x[] ) {
+        Animal a = new Animal();
+        Cheetah c = new Cheetah();        
+        a.move();
+        c.move();
+    }
+}
+        </p>
     
 </center>
 

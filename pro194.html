@@ -26,7 +26,39 @@
 <center>
 
           
-    <a href="pic\inpro22.png"><img src="pic\inpro22.png" class="img"></a>
+    <p class="test1" style="white-space:pre; background-color:black; color:white;">
+            
+        
+//How to convert Decimal to Binary
+
+
+
+class DecimalToBinary {
+   public static void main(String[] args) {
+       int decimalNumber =9;
+       
+      
+       StringBuilder binary = new StringBuilder();
+       
+       if (decimalNumber == 0) {
+           binary.append(0);
+       } else {
+           
+           while (decimalNumber > 0) {
+               int remainder = decimalNumber % 2;
+               binary.insert(0, remainder);
+               decimalNumber = decimalNumber / 2;
+           }
+       }
+       
+       System.out.println("Binary representation: "+ binary.toString());
+   }
+}
+
+
+
+
+        </p>
     
 </center>
 

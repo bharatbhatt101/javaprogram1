@@ -26,7 +26,36 @@
 <center>
 
           
-    <a href="pic\inpro22.png"><img src="pic\inpro22.png" class="img"></a>
+    <p class="test1" style="white-space:pre; background-color:black; color:white;">
+            
+        /*Write a java method to count all the words in a string.*/
+
+class a
+
+{
+
+static int countWord(String s)
+{
+int t=1;
+for(int i=0; i<s.length(); i++)
+{
+
+if((s.charAt(i) == ' ') && (s.charAt(i+1) != ' '))
+{
+t++;
+}
+}
+return t;
+}
+
+public static void main(String args[])
+{
+
+System.out.println(countWord("Hello How are you"));
+}
+
+}
+        </p>
     
 </center>
 

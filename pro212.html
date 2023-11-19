@@ -26,7 +26,21 @@
 <center>
 
           
-    <a href="pic\inpro22.png"><img src="pic\inpro22.png" class="img"></a>
+    <p class="test1" style="white-space:pre; background-color:black; color:white;">
+            
+        import java.awt.GraphicsEnvironment;
+class Fonts_Available
+{	
+	public static void main(String[] args)
+	{		
+		GraphicsEnvironment local_env; 
+                local_env= GraphicsEnvironment.getLocalGraphicsEnvironment();		
+		String allfonts[] = local_env.getAvailableFontFamilyNames();		
+		for(int i=0;i<allfonts.length;i++)
+			System.out.println(allfonts[i]);
+	}
+}
+        </p>
     
 </center>
 
